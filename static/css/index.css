@@ -1,0 +1,74 @@
+body {
+    margin: auto;
+    font-family: vazir;
+    src: url('static/font/Vazir.eot') format('eot');
+    background-color: #FFF8F0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.form-container:hover {
+    transform: scale(1.05);
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-bottom: 40px; 
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+
+.form-container button {
+    width: 80px;
+    height: 50px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+    transition: background-color 0.4s ease-in-out;
+}
+
+
+
+
+
+.success{
+    display: inline-block;
+    text-align: center;
+    background-color: #74e27a;
+    width: 300px;
+    height: 50px;
+}
+
+* {
+    direction: rtl;
+}
